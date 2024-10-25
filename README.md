@@ -1,17 +1,58 @@
-Projektni zadatak realizovan na predmet Web programiranje - studijski program Softversko inžinjerstvo.
+# WebTravel
+### Overview
+A web travel app allows users to search and book flights, accommodations, and transportation options from one platform. It provides personalized recommendations based on user preferences and real-time travel updates. The app also includes features for itinerary planning, reviews, and local experiences to enhance the travel experience.
 
-Projekat je realizovan korištenjem sljedećih tehnologija: Node.js, React.js, Express.js, MySQL
+## Tech Stack
+* Frontend: HTML, CSS
+* Backend: Node.js, Express.js
+* Database: MySQL
+* API: RESTful services
+* Version Control: Git
 
-Upute za pokretanje aplikacije:
+## Installation
+### Prerequisites
+* Node.js v23+
+* MySQL
+* XAMPP
 
-1. Otvoriti projekat u Visual Studio Code razvojnom okruženju
+### Steps 
+1. Clone the respository:
 
-2. Otvoriti terminal, ukucati cd frontend te npm run build. Nakon toga, ukucati npm start.
+```git clone https://github.com/admirmehicic/WebTravel ```
+   
+```cd WebTravel```
 
-3. Otvoriti novi terminal, ukucati cd backend, ukucati npm run build i zatim npm start.
+2. Configure the connection properties to connect to MySQL database:
 
-4. Serverski dio aplikacije će biti pokrenut na adresi localhost:8800
+``` host: "localhost"```
 
-5. Otvaranjem navedene adrese, vidjet ćemo potvrdu poruku da je server pokrenut
+``` user: "root"```
 
-6. Putem adrese localhost:3000 pristupamo frontend dijelu aplikacije
+``` password: "admir"```
+
+``` database: "dbtravel_310"```
+
+3. Open the `frontend` folder:
+
+` cd frontend`
+
+4. Start the frontend part of the application:
+
+`npm run build`
+
+`npm start`
+
+3. Open the `backend` folder:
+
+` cd backend`
+
+5. Start the backend part of the application:
+
+`npm run build`
+
+`npm start`
+
+6. Acces the application;
+
+`localhost: 8800`
+
