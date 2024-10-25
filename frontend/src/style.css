@@ -1,0 +1,84 @@
+.App {
+    height: 100vh;
+    padding: 0 100px;
+    display: flex;
+    text-align: center;
+    background-color: white; 
+    border-radius: 10px; 
+
+    .addHome {
+        padding: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+        border: none;
+        background-color: teal;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px; 
+    }
+
+
+    .putovanja {
+        display: flex;
+        
+
+
+        .putovanje {
+            flex: 1;
+            gap: 10px;
+            border: 1px solid #ddd; 
+
+          
+
+            .delete {
+                border: 1px solid rgb(245, 191, 191);
+                color: rgb(242, 100, 100);
+            }
+
+            .update {
+                border: 1px solid rgb(204, 204, 243);
+                color: rgb(139, 139, 234);
+            }
+            
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+    
+
+        input,
+        textarea {
+            width: 100%; 
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px; 
+        }
+
+        button {
+            border: none;
+            padding: 10px;
+            background-color: rgb(233, 233, 233);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px; 
+        }
+    }
+}
+
+.newButton {
+    padding: 20px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(240, 233, 233); 
+    border: 1px solid rgb(12, 94, 187);
+    color: rgb(44, 85, 199);
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none; 
+
+    display: inline-block; 
+}
