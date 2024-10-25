@@ -52,7 +52,7 @@ A web travel app allows users to search and book flights, accommodations, and tr
 
 `npm start`
 
-6. Acces the application;
+6. Acces the application:
 
 `localhost: 8800`
 
